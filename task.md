@@ -109,5 +109,18 @@
     git commit -m "File added"
 
 
+#### Task 9: Merging Branches
 
+1. To merge branch first we switch into main branch
+
+    git checkout main
+
+2. Merge the new branch into main
+
+    git merge new_branch
+
+
+#### Task 10: Simulate a Merge Conflict
+
+1. First make a new file in both the existing branches
 
