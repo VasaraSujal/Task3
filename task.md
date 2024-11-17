@@ -124,3 +124,18 @@
 
 1. First make a new file in both the existing branches
 
+    git checkout main
+    echo "123" >> conflict.txt
+
+2. Add and commit
+
+    git add conflict.txt
+    git commit -m "Added conflict.txt in main branch"
+
+3. Switch to the new branch and repeate the same process
+
+    git checkout feature
+    echo "456" >> conflict.txt
+    git add conflict.txt
+    git commit -m "Added conflict.txt"
+
